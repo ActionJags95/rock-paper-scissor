@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissor   </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/userInput.css">
+    <link rel="stylesheet" href="css/playArea.css">
+    <script src="js/script.js" async></script>
+    <!-- <script src="js/test.js" async></script> -->
 </head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik", serif;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+</style>
 <body>
-    
+    <div class="title">
+        <p>Rock Paper Scissor</p>
+    </div>
+    <div class="start">
+        <button>Start Game</button>
+    </div>
+    <div class="userMsg">
+
+    </div>
+    <div class="play-area">
+        <div class="user-area">
+            <div class="prompt">
+                <p class="round">Round : </p>
+            </div>
+            <div class="choice">
+                <p class="choice-text">Enter your choice</p>
+                <div class="image">
+                    <button class="inputs"><img src="img/rock.png" alt="Rock" id="rock"></button>
+                    <button class="inputs"><img src="img/paper.png" alt="Paper" id="paper"></button>
+                    <button class="inputs"><img src="img/scissor.png" alt="Scissor" id="scissor"></button>
+                </div>
+            </div>
+        </div>
+        <div class="result-area">
+            <div class="score-board">
+                <p id="your-score">Your score is :</p>
+                <p id="computer-score">Computer Score is :</p>
+            </div>
+            <div class="result">
+                <p id="final-result"></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
