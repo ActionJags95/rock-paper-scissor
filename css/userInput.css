@@ -1,0 +1,24 @@
+.start button{
+    padding: 15px 50px;
+    margin: 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: coral;
+    font-size: 25px;
+}
+.start{
+    text-align: center;
+}
+.userMsg{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    text-align: center;
+    height: 70px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    font-family: "Rubik", serif;
+}
